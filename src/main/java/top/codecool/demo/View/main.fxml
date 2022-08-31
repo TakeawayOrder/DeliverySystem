@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="511.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="top.codecool.demo.View.Controller">
+   <children>
+      <Button fx:id="myLoginBtn" layoutX="219.0" layoutY="187.0" mnemonicParsing="false" onAction="#submit" prefHeight="49.0" prefWidth="129.0" text="Login" />
+      <TextField fx:id="myAgeTxt" layoutX="121.0" layoutY="121.0" prefHeight="38.0" prefWidth="358.0" promptText="input age" />
+      <Label layoutX="67.0" layoutY="121.0" text="Age:">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Label fx:id="message" layoutX="214.0" layoutY="62.0" prefHeight="38.0" prefWidth="139.0" textFill="#c30e0e">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <CheckBox id="myCheckBox" fx:id="myCheckBox" layoutX="37.0" layoutY="324.0" mnemonicParsing="false" onAction="#change" text="NO/OFF">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </CheckBox>
+      <ImageView id="image" fx:id="image" fitHeight="103.0" fitWidth="139.0" layoutX="20.0" layoutY="185.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@lightbulb_01.png" />
+         </image></ImageView>
+      <Label id="No_Off" fx:id="No_Off" layoutX="271.0" layoutY="283.0" prefHeight="103.0" prefWidth="296.0" textFill="#c30e0e">
+         <font>
+            <Font size="52.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

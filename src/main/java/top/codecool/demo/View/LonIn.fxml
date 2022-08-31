@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="top.codecool.demo.View.LogInController">
+   <children>
+      <Button id="passWordBtn" fx:id="passWordBtn" layoutX="431.0" layoutY="96.0" mnemonicParsing="false" onAction="#getPassWord" text="获取验证码">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="LogInBtn" layoutX="283.0" layoutY="245.0" mnemonicParsing="false" onAction="#LogIn" text="登录">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label fx:id="emailLabel" layoutX="75.0" layoutY="91.0" text="请输入邮箱">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="passWordLabel" layoutX="75.0" layoutY="162.0" text="请输入验证码">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="emailText" layoutX="232.0" layoutY="92.0" />
+      <TextField fx:id="passWordText" layoutX="232.0" layoutY="163.0" />
+   </children>
+</AnchorPane>

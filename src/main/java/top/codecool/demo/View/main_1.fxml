@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="756.0" prefWidth="899.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="top.codecool.demo.View.main_1Controller">
+   <children>
+      <SplitPane prefHeight="756.0" prefWidth="420.0">
+         <items>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ListView fx:id="listView" layoutX="21.0" layoutY="25.0" prefHeight="704.0" prefWidth="377.0" />
+                  <ScrollPane layoutX="21.0" layoutY="25.0" prefHeight="704.0" prefWidth="377.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="174.0" prefWidth="375.0">
+                           <children>
+                              <HBox layoutX="-14.0" layoutY="41.0" prefHeight="100.0" prefWidth="200.0" />
+                              <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="161.0" pickOnBounds="true" preserveRatio="true" />
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+      <TableView fx:id="tableView" layoutX="477.0" layoutY="155.0" prefHeight="361.0" prefWidth="377.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="编号" />
+            <TableColumn prefWidth="75.0" text="名称" />
+            <TableColumn prefWidth="75.0" text="图片" />
+            <TableColumn prefWidth="75.0" text="价格" />
+
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

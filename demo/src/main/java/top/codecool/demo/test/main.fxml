@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="top.codecool.demo.View.Controller">
+   <children>
+      <Button fx:id="myLoginBtn" layoutX="224.0" layoutY="183.0" mnemonicParsing="false" onAction="#submit" prefHeight="49.0" prefWidth="129.0" text="Login" />
+      <TextField fx:id="myAgeTxt" layoutX="121.0" layoutY="121.0" prefHeight="38.0" prefWidth="358.0" promptText="input age" />
+      <Label layoutX="67.0" layoutY="121.0" text="Age:">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Label fx:id="message" layoutX="214.0" layoutY="62.0" prefHeight="38.0" prefWidth="139.0" textFill="#c30e0e">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
